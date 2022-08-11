@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 999px) {
   #inicio {
     margin: 0px;
     padding: 0px;
@@ -23,7 +23,7 @@
     font-family: "Ubuntu", sans-serif;
     color: rgb(5, 5, 71);
     padding: 10px;
-    font-size: 200%;
+    font-size: 150%;
   }
   section#productos h4 {
     text-align: center;
