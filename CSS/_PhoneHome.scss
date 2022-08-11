@@ -1,0 +1,187 @@
+@media screen and (max-width: 750px){
+    #inicio{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    header {
+        grid-area: header;
+        
+
+       
+    }
+    
+    footer {
+        grid-area: footer;
+        background: linear-gradient(90deg,#ffd500e1 0%,#d41e33e1 100%);
+    }
+    
+    section#productos {
+        grid-area: productos;
+        overflow: hidden;
+        
+    }
+    
+    section#servicios {
+        grid-area: servicios;
+        overflow: hidden;
+        
+        
+    }
+section#productos h1{
+    text-align: center;  
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(5, 5, 71);
+    padding: 10px;
+    font-size: 200%;
+     
+}
+section#productos h4{
+   text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(128, 20, 20);
+    padding: 10px;
+    
+     
+}
+#lineagris{
+     text-align: center;
+     font-family: 'Ubuntu', sans-serif;
+     color: rgb(44, 218, 0);
+     font-size:150%;
+     padding: 10px;
+      
+}
+
+  
+
+    aside {
+        grid-area: publicidad;
+        background-color: rgba(248, 255, 248, 0.377);
+        overflow: hidden auto;
+        border: solid 1px rgba(128, 128, 128, 0.329);
+    
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows:300px auto auto auto;
+        grid-template-areas: "header" "productos" "servicios" "footer" ;
+        column-gap:1px;
+        row-gap: 1px;
+
+    }
+    /*BARRA NAVEGADORA*/
+
+ .MenuDeInicio{
+    display: none;
+ }
+ #phone{
+
+  background-color: rgba(0, 0, 0, 0.938);
+  
+ }
+ .colorletra{
+    color: antiquewhite !important;
+    text-decoration: none;
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    
+ }
+
+ .nav-item{
+    margin: 6px;
+    :hover{
+        background-color:rgba(27, 27, 27, 0.753);
+        
+    }
+    
+ }
+
+ /*AREA DE SHOP*/
+
+ .test{
+     
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+   }
+
+   
+   
+   .buton{
+       width: 50%;
+       height: 32px;
+       color: #fff;
+       border: 0;
+       outline: 2px solid rgba(255,211,0,.5);
+       outline-offset: -2px;
+       background: linear-gradient(90deg,#ffd300 0%,#d41e33 100%);
+   }
+
+   .Tabla{
+    display: none;
+   }
+
+   .tamano{
+    height: 100%;
+    width: 50%;
+   }
+
+   .center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+   }
+
+   .centerg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+   }
+
+   .fuente{
+    display: flex;
+    flex-wrap: wrap;
+  
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(5, 5, 77);
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+   }
+
+   /*TICKETS*/
+   #Tickets ul {
+ 
+    margin: 5px;
+    padding: 0px;
+    border: solid 2px red;
+    border-radius: 10%;
+    background-color: #fff;   
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+}
+   
+
+#Tickets li{
+    list-style: none;
+   
+
+}
+
+aside{
+    display: none;
+}
+  
+
+}
