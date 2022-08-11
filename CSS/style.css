@@ -47,7 +47,7 @@
   #grid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 300px auto auto auto;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas: "header" "productos" "servicios" "footer";
     -moz-column-gap: 1px;
          column-gap: 1px;
@@ -58,18 +58,13 @@
     display: none;
   }
   #phone {
-    background-color: rgba(0, 0, 0, 0.938);
+    background: linear-gradient(90deg, rgba(255, 213, 0, 0.8823529412) 0%, rgba(212, 30, 51, 0.8823529412) 100%);
   }
-  .colorletra {
-    color: antiquewhite !important;
-    text-decoration: none;
-    font-family: "Titillium Web", Helvetica, sans-serif;
-  }
-  .nav-item {
-    margin: 6px;
-  }
-  .nav-item :hover {
-    background-color: rgba(27, 27, 27, 0.753);
+  .ubi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
   /*AREA DE SHOP*/
   .test {
@@ -91,8 +86,9 @@
     display: none;
   }
   .tamano {
-    height: 100%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
+    margin: 8px;
   }
   .center {
     display: flex;
@@ -137,7 +133,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   #inicio {
     margin: 0px;
     padding: 0px;

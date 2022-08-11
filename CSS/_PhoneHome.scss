@@ -11,6 +11,7 @@
        
     }
     
+    
     footer {
         grid-area: footer;
         background: linear-gradient(90deg,#ffd500e1 0%,#d41e33e1 100%);
@@ -66,7 +67,7 @@ section#productos h4{
     #grid{
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows:300px auto auto auto;
+        grid-template-rows:auto auto auto auto;
         grid-template-areas: "header" "productos" "servicios" "footer" ;
         column-gap:1px;
         row-gap: 1px;
@@ -79,24 +80,19 @@ section#productos h4{
  }
  #phone{
 
-  background-color: rgba(0, 0, 0, 0.938);
+    background: linear-gradient(90deg,#ffd500e1 0%,#d41e33e1 100%);
   
  }
- .colorletra{
-    color: antiquewhite !important;
-    text-decoration: none;
-    font-family: "Titillium Web", Helvetica, sans-serif;
+
+ .ubi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: flex-start;
     
  }
 
- .nav-item{
-    margin: 6px;
-    :hover{
-        background-color:rgba(27, 27, 27, 0.753);
-        
-    }
-    
- }
+
 
  /*AREA DE SHOP*/
 
@@ -126,8 +122,9 @@ section#productos h4{
    }
 
    .tamano{
-    height: 100%;
-    width: 50%;
+    height: 30%;
+    width: 30%; 
+    margin:8px; ;
    }
 
    .center{
