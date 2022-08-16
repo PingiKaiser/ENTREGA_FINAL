@@ -190,7 +190,7 @@
     display: flex;
     align-items: center;
   }
-  #fontface {
+  .fontface {
     font-family: "Titillium Web", Helvetica, sans-serif;
     font-size: 150%;
   }
@@ -391,4 +391,129 @@ section#productos h4 {
 
 .bphone {
   display: none;
+}
+
+@media screen and (max-width: 999px) {
+  .MenuDeInicioShop {
+    display: none;
+  }
+  header#menu {
+    grid-area: menu;
+    background: linear-gradient(90deg, #0212a1 0%, #060038 100%);
+  }
+  footer#footershop {
+    grid-area: footershop;
+    background: linear-gradient(90deg, rgba(255, 213, 0, 0.8823529412) 0%, rgba(212, 30, 51, 0.8823529412) 100%);
+  }
+  section#shop {
+    grid-area: shop;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+  }
+  section#submenu {
+    grid-area: submenu;
+    overflow: hidden;
+  }
+  #grid1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto 100px;
+    grid-template-areas: "menu" "shop" "footershop";
+    -moz-column-gap: 1px;
+         column-gap: 1px;
+    row-gap: 1px;
+  }
+  #shop h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 250%;
+    color: rgb(3, 3, 44);
+    font-weight: bold;
+  }
+  .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tamanio {
+    height: 100%;
+    width: 25%;
+  }
+  #fondoshop {
+    background: #060038;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #phoneshop {
+    display: none;
+  }
+  .MenuDeInicioShop {
+    list-style: none;
+    background: rgba(0, 38, 255, 0);
+    margin: 0 auto;
+  }
+  .MenuDeInicioShop li a {
+    text-decoration: none;
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  .MenuDeInicioShop li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  .fontface {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size: 150%;
+  }
+  #inviShop {
+    transition: background 2s;
+    transition: color;
+  }
+  #inviShop :hover {
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+  }
+  header#menu {
+    grid-area: menu;
+    background: linear-gradient(90deg, #0212a1 0%, #060038 100%);
+  }
+  footer#footershop {
+    grid-area: footershop;
+    background: linear-gradient(90deg, rgba(255, 213, 0, 0.8823529412) 0%, rgba(212, 30, 51, 0.8823529412) 100%);
+  }
+  section#shop {
+    grid-area: shop;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+  }
+  section#submenu {
+    grid-area: submenu;
+    overflow: hidden;
+  }
+  #grid1 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto auto 100px;
+    grid-template-areas: "menu  menu" "submenu  shop" "footershop  footershop";
+    -moz-column-gap: 1px;
+         column-gap: 1px;
+    row-gap: 1px;
+  }
+  #shop h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 250%;
+    color: rgb(3, 3, 44);
+    font-weight: bold;
+  }
+  .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

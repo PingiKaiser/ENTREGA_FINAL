@@ -82,7 +82,7 @@ section#servicios {
         align-items: center;
     }
     
-    #fontface  {
+    .fontface  {
         font-family: "Titillium Web", Helvetica, sans-serif;
         font-size:150%;
         
@@ -354,3 +354,5 @@ section#productos h4{
 .bphone{
     display: none;
 }
+
+@import "Shop"
