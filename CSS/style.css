@@ -138,12 +138,14 @@
     margin: 0px;
     padding: 0px;
   }
-  header {
-    grid-area: header;
+  #fondoindex {
     display: flex;
     background-image: url(https://www.momentogp.com/wp-content/uploads/2022/04/2022-Max-Imola.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+  }
+  header {
+    grid-area: header;
   }
   footer {
     grid-area: footer;
@@ -397,6 +399,9 @@ section#productos h4 {
   .MenuDeInicioShop {
     display: none;
   }
+  #phoneshop {
+    background: linear-gradient(90deg, #0212a1 0%, #060038 100%);
+  }
   header#menu {
     grid-area: menu;
     background: linear-gradient(90deg, #0212a1 0%, #060038 100%);
@@ -407,12 +412,10 @@ section#productos h4 {
   }
   section#shop {
     grid-area: shop;
-    overflow: hidden;
     border: 1px solid rgba(128, 128, 128, 0.247);
   }
   section#submenu {
-    grid-area: submenu;
-    overflow: hidden;
+    display: none;
   }
   #grid1 {
     display: grid;
@@ -440,6 +443,9 @@ section#productos h4 {
   }
   #fondoshop {
     background: #060038;
+  }
+  .fixed {
+    position: fixed;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -515,5 +521,82 @@ section#productos h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 999px) {
+  .MenuDeInicioShop {
+    display: none;
+  }
+  #phoneticket {
+    background: linear-gradient(90deg, #ff0101 0%, #830000 100%);
+  }
+  .f1font {
+    font-family: "Formula1 Display-Bold";
+    font-size: 150%;
+  }
+  .f1font2 {
+    font-family: "Formula1 Display-Bold";
+    font-size: 100%;
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .MenuDeInicioShop {
+    list-style: none;
+    background: rgba(0, 38, 255, 0);
+    margin: 0 auto;
+  }
+  .MenuDeInicioShop li a {
+    text-decoration: none;
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  .MenuDeInicioShop li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  .fontface {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size: 150%;
+  }
+  #inviShop {
+    transition: background 2s;
+    transition: color;
+  }
+  #inviShop :hover {
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+  }
+  .navtickets {
+    background: linear-gradient(90deg, #ff0101 0%, #830000 100%);
+  }
+  @import url(//db.onlinewebfonts.com/c/5fa59df7bc502c63582850f9f34b9db2?family=Formula1+Display-Bold);
+  @font-face {
+    font-family: "Formula1 Display-Bold";
+    src: url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.eot");
+    src: url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.woff") format("woff"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.svg#Formula1 Display-Bold") format("svg");
+  }
+  .f1font {
+    font-family: "Formula1 Display-Bold";
+    font-size: 300%;
+  }
+  .f1font2 {
+    font-family: "Formula1 Display-Bold";
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-top: 250px;
+  }
+  #phoneticket {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

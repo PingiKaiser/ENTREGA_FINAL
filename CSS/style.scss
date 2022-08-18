@@ -6,13 +6,16 @@
     padding: 0px;
 }
 
-header {
-    grid-area: header;
+#fondoindex{
     display: flex;
     background-image: url(https://www.momentogp.com/wp-content/uploads/2022/04/2022-Max-Imola.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
+}
+
+header{
+    grid-area: header;
 }
 
 footer {
@@ -355,4 +358,6 @@ section#productos h4{
     display: none;
 }
 
-@import "Shop"
+@import "Shop";
+
+@import "Tickets";

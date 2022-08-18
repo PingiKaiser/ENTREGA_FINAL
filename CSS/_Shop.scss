@@ -4,7 +4,9 @@
     }
 
 
-
+    #phoneshop{
+        background: linear-gradient(90deg,#0212a1 0%,#060038 100%);
+    }
 
     header#menu {
         grid-area: menu ;
@@ -20,15 +22,15 @@
     
     section#shop{
         grid-area:shop;
-        overflow: hidden;
+        
         border: 1px solid rgba(128, 128, 128, 0.247);
     
         
     }
     
     section#submenu{
-        grid-area: submenu;
-        overflow: hidden;
+        display: none;
+        
         
         
     }
@@ -61,6 +63,9 @@
 }
 #fondoshop{
     background: #060038;
+}
+.fixed{
+    position: fixed;
 }
 }
     

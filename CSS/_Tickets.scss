@@ -1,0 +1,100 @@
+@media screen and (max-width: 999px){
+    .MenuDeInicioShop{
+        display: none;
+    }
+    #phoneticket{
+        background: linear-gradient(90deg,#ff0101 0%,#830000 100%);
+    }
+    .f1font{
+        font-family: "Formula1 Display-Bold";
+        font-size: 150%;
+    }
+    .f1font2{
+        font-family: "Formula1 Display-Bold";
+        font-size: 100%;
+        margin-left: 0px;
+        padding-top:20px ;
+    }
+}
+
+
+
+
+
+    @media screen and (min-width: 1000px) {
+.MenuDeInicioShop{
+        
+    list-style: none;
+    background: rgba(0, 38, 255, 0);
+    margin: 0 auto;
+    
+    
+    
+}
+
+.MenuDeInicioShop li a{
+    text-decoration: none;
+    display:flex;
+   
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+
+        
+}
+
+.MenuDeInicioShop li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.fontface  {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size:150%;
+    
+}
+
+#inviShop{
+    transition:background 2s;
+    transition: color ;
+}
+#inviShop :hover{
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+.navtickets{
+    background: linear-gradient(90deg,#ff0101 0%,#830000 100%);
+}
+    @import url(//db.onlinewebfonts.com/c/5fa59df7bc502c63582850f9f34b9db2?family=Formula1+Display-Bold);
+
+    @font-face {font-family: "Formula1 Display-Bold"; src: url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.eot"); src: url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.woff") format("woff"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.svg#Formula1 Display-Bold") format("svg"); }
+
+    .f1font{
+        font-family: "Formula1 Display-Bold";
+        font-size: 300%;
+
+    }
+    .f1font2{
+        font-family: "Formula1 Display-Bold";
+        font-size: 200%;
+        display: flex;
+        flex-direction: column;
+       margin-left: 0px;
+       padding-top: 250px;
+
+        
+    }
+    #phoneticket{
+        display: none;
+    }
+
+}
