@@ -530,6 +530,12 @@ section#productos h4 {
   #phoneticket {
     background: linear-gradient(90deg, #ff0101 0%, #830000 100%);
   }
+  @import url(//db.onlinewebfonts.com/c/5fa59df7bc502c63582850f9f34b9db2?family=Formula1+Display-Bold);
+  @font-face {
+    font-family: "Formula1 Display-Bold";
+    src: url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.eot");
+    src: url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.woff") format("woff"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5fa59df7bc502c63582850f9f34b9db2.svg#Formula1 Display-Bold") format("svg");
+  }
   .f1font {
     font-family: "Formula1 Display-Bold";
     font-size: 150%;
@@ -539,6 +545,9 @@ section#productos h4 {
     font-size: 100%;
     margin-left: 0px;
     padding-top: 20px;
+  }
+  .footerback {
+    background: linear-gradient(90deg, #ff0101 0%, #830000 100%);
   }
 }
 @media screen and (min-width: 1000px) {
@@ -598,5 +607,8 @@ section#productos h4 {
   }
   #phoneticket {
     display: none;
+  }
+  .footerback {
+    background: linear-gradient(90deg, #ff0101 0%, #830000 100%);
   }
 }/*# sourceMappingURL=style.css.map */
