@@ -712,7 +712,7 @@ section#productos h4 {
     flex-wrap: wrap;
   }
   .tw {
-    height: 50px;
+    height: 60px;
     width: 80px;
   }
 }
@@ -778,5 +778,94 @@ section#productos h4 {
   .tw {
     height: 100px;
     width: 130px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .MenuDeInicioShop {
+    display: none;
+  }
+  #phonecontact {
+    background: linear-gradient(90deg, #4e4e4e 0%, #000000 100%);
+  }
+  .footerback {
+    background: linear-gradient(90deg, #ff5e01 0%, #ffa600 100%);
+  }
+  .footerabout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .tw {
+    height: 60px;
+    width: 80px;
+  }
+  .fondocontact {
+    background-image: url(../Images/fondocontact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .invicon {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media screen and (min-width: 1000px) {
+  .MenuDeInicioShop {
+    list-style: none;
+    background: rgba(0, 38, 255, 0);
+    margin: 0 auto;
+  }
+  .MenuDeInicioShop li a {
+    text-decoration: none;
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  .MenuDeInicioShop li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  .fontface {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size: 150%;
+  }
+  #inviShop {
+    transition: background 2s;
+    transition: color;
+  }
+  #inviShop :hover {
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+  }
+  .navcontact {
+    background: linear-gradient(90deg, #4e4e4e 0%, #000000 100%);
+  }
+  #phonecontact {
+    display: none;
+  }
+  .footerback {
+    background: linear-gradient(90deg, #ff5e01 0%, #ffa600 100%);
+  }
+  .footerabout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .tw {
+    height: 100px;
+    width: 130px;
+  }
+  .fondocontact {
+    background-image: url(../Images/fondocontact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .invicon {
+    background-color: rgba(0, 0, 0, 0);
   }
 }/*# sourceMappingURL=style.css.map */

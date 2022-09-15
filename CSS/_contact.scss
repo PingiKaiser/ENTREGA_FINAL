@@ -2,29 +2,14 @@
     .MenuDeInicioShop{
         display: none;
     }
-    #phoneabout{
-        background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
-    }
-    .fondoabout{
-
-        background-image: url(../Images/fondo.about.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-     }
-    .fondocard{
-        background-color: rgba(16, 99, 172, 0);
-    }
-    
-    .colorcard{
-        color: antiquewhite;
+    #phonecontact{
+        background: linear-gradient(90deg,#4e4e4e 0%,#000000 100%);
     }
     .footerback{
         background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
 
     }
-    #carrusel{
-        display: none;
-    }
+
     .footerabout{
         display: flex;
         flex-direction: column;
@@ -34,6 +19,15 @@
     .tw{
         height: 60px;
         width: 80px;
+    }
+    .fondocontact{
+        background-image: url(../Images/fondocontact.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .invicon{
+        background-color: #00000000;
     }
    
 }
@@ -92,29 +86,15 @@ nav ul{
     background: rgba(255, 255, 255, 0);
     color: aliceblue;
 }
-.navabout{
-    background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
+.navcontact{
+    background: linear-gradient(90deg,#4e4e4e 0%,#000000 100%);
 }
 
         
     
-    #phoneabout{
+    #phonecontact{
         display: none;
     }
- 
- .fondoabout{
-
-    background-image: url(../Images/fondo.about.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
- }
-.fondocard{
-    background-color: rgba(16, 99, 172, 0);
-}
-
-.colorcard{
-    color: antiquewhite;
-}
 
 .footerback{
     background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
@@ -131,5 +111,15 @@ nav ul{
     height: 100px;
     width: 130px;
 }
+.fondocontact{
+    background-image: url(../Images/fondocontact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.invicon{
+    background-color: #00000000;
+}
+
 
 }
