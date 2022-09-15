@@ -329,6 +329,89 @@ section#productos h4{
    
     
 }
+
+.butonsin{
+    width: 100%;
+    height: 32px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    
+    outline-offset: -2px;
+    background-image: url(../Images/bansin.jpg);
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size:100%;
+   
+    
+}
+
+.butonjap{
+    width: 100%;
+    height: 32px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    
+    outline-offset: -2px;
+    background-image: url(../Images/banjap.jpg);
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size:100%;
+   
+    
+}
+
+.butonmex{
+    width: 100%;
+    height: 32px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    
+    outline-offset: -2px;
+    background-image: url(../Images/banmex.jpg);
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size:100%;
+   
+    
+}
+
+.butoneeuu{
+    width: 100%;
+    height: 32px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    
+    outline-offset: -2px;
+    background-image: url(../Images/baneu.jpg);
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size:100%;
+   
+    
+}
+
+.butonabul{
+    width: 100%;
+    height: 32px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    
+    outline-offset: -2px;
+    background-image: url(../Images/banabu.jpg);
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size:100%;
+   
+    
+}
+
+
+
 .redtik{
         transition: color 2s;
     }
@@ -361,3 +444,5 @@ section#productos h4{
 @import "Shop";
 
 @import "Tickets";
+
+@import"Aboutme";

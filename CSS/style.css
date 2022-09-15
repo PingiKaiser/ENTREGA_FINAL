@@ -371,6 +371,71 @@ section#productos h4 {
   font-size: 100%;
 }
 
+.butonsin {
+  width: 100%;
+  height: 32px;
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline-offset: -2px;
+  background-image: url(../Images/bansin.jpg);
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.butonjap {
+  width: 100%;
+  height: 32px;
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline-offset: -2px;
+  background-image: url(../Images/banjap.jpg);
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.butonmex {
+  width: 100%;
+  height: 32px;
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline-offset: -2px;
+  background-image: url(../Images/banmex.jpg);
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.butoneeuu {
+  width: 100%;
+  height: 32px;
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline-offset: -2px;
+  background-image: url(../Images/baneu.jpg);
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.butonabul {
+  width: 100%;
+  height: 32px;
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline-offset: -2px;
+  background-image: url(../Images/banabu.jpg);
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-size: 100%;
+}
+
 .redtik {
   transition: color 2s;
 }
@@ -491,12 +556,11 @@ section#productos h4 {
   }
   footer#footershop {
     grid-area: footershop;
-    background: linear-gradient(90deg, rgba(255, 213, 0, 0.8823529412) 0%, rgba(212, 30, 51, 0.8823529412) 100%);
+    background: linear-gradient(90deg, rgba(255, 213, 0, 0.8823529412) 0%, rgba(212, 30, 51, 0.8823529412) 100%) !important;
   }
   section#shop {
     grid-area: shop;
     overflow: hidden;
-    border: 1px solid rgba(128, 128, 128, 0.247);
   }
   section#submenu {
     grid-area: submenu;
@@ -521,6 +585,12 @@ section#productos h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+  .general {
+    background-color: rgb(230, 230, 230);
+  }
+  #fix1 {
+    position: fixed;
   }
 }
 @media screen and (max-width: 999px) {
@@ -610,5 +680,103 @@ section#productos h4 {
   }
   .footerback {
     background: linear-gradient(90deg, #ff0101 0%, #830000 100%);
+  }
+}
+@media screen and (max-width: 999px) {
+  .MenuDeInicioShop {
+    display: none;
+  }
+  #phoneabout {
+    background: linear-gradient(90deg, #ff5e01 0%, #ffa600 100%);
+  }
+  .fondoabout {
+    background-image: url(../Images/fondo.about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .fondocard {
+    background-color: rgba(16, 99, 172, 0);
+  }
+  .colorcard {
+    color: antiquewhite;
+  }
+  .footerback {
+    background: linear-gradient(90deg, #ff5e01 0%, #ffa600 100%);
+  }
+  #carrusel {
+    display: none;
+  }
+  .footerabout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .tw {
+    height: 50px;
+    width: 80px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .MenuDeInicioShop {
+    list-style: none;
+    background: rgba(0, 38, 255, 0);
+    margin: 0 auto;
+  }
+  .MenuDeInicioShop li a {
+    text-decoration: none;
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  .MenuDeInicioShop li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  .fontface {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size: 150%;
+  }
+  #inviShop {
+    transition: background 2s;
+    transition: color;
+  }
+  #inviShop :hover {
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+  }
+  .navabout {
+    background: linear-gradient(90deg, #ff5e01 0%, #ffa600 100%);
+  }
+  #phoneabout {
+    display: none;
+  }
+  .fondoabout {
+    background-image: url(../Images/fondo.about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .fondocard {
+    background-color: rgba(16, 99, 172, 0);
+  }
+  .colorcard {
+    color: antiquewhite;
+  }
+  .footerback {
+    background: linear-gradient(90deg, #ff5e01 0%, #ffa600 100%);
+  }
+  .footerabout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .tw {
+    height: 100px;
+    width: 130px;
   }
 }/*# sourceMappingURL=style.css.map */

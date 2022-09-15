@@ -1,0 +1,135 @@
+@media screen and (max-width: 999px){
+    .MenuDeInicioShop{
+        display: none;
+    }
+    #phoneabout{
+        background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
+    }
+    .fondoabout{
+
+        background-image: url(../Images/fondo.about.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+     }
+    .fondocard{
+        background-color: rgba(16, 99, 172, 0);
+    }
+    
+    .colorcard{
+        color: antiquewhite;
+    }
+    .footerback{
+        background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
+
+    }
+    #carrusel{
+        display: none;
+    }
+    .footerabout{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .tw{
+        height: 50px;
+        width: 80px;
+    }
+   
+}
+
+
+
+
+
+    @media screen and (min-width: 1000px) {
+.MenuDeInicioShop{
+        
+    list-style: none;
+    background: rgba(0, 38, 255, 0);
+    margin: 0 auto;
+    
+    
+    
+}
+
+.MenuDeInicioShop li a{
+    text-decoration: none;
+    display:flex;
+   
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+
+        
+}
+
+.MenuDeInicioShop li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.fontface  {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size:150%;
+    
+}
+
+#inviShop{
+    transition:background 2s;
+    transition: color ;
+}
+#inviShop :hover{
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+.navabout{
+    background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
+}
+
+        
+    
+    #phoneabout{
+        display: none;
+    }
+ 
+ .fondoabout{
+
+    background-image: url(../Images/fondo.about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+.fondocard{
+    background-color: rgba(16, 99, 172, 0);
+}
+
+.colorcard{
+    color: antiquewhite;
+}
+
+.footerback{
+    background: linear-gradient(90deg,#ff5e01 0%,#ffa600 100%);
+
+}
+
+.footerabout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.tw{
+    height: 100px;
+    width: 130px;
+}
+
+}
